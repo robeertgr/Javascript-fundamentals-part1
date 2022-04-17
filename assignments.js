@@ -21,5 +21,18 @@ console.log(typeof language);
 // Assignment #3
 
 // These variables will not change their content because they are "const" and not "let"
-country = "Ireland";
-language = "English";
+//country = "Ireland";
+//language = "English";
+
+// Assignment #4
+
+const description = "Portugal is in Europe, and its 11 milion people speak portuguese"
+const finlandPopulation = 6000000;
+const averagePopulation = 33000000;
+let countrySplitHalf = population / 2;
+console.log(countrySplitHalf)
+countrySplitHalf++;
+console.log(countrySplitHalf)
+console.log(population > finlandPopulation);
+console.log(population < averagePopulation);
+console.log(description);
