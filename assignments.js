@@ -26,7 +26,7 @@ console.log(typeof language);
 
 // Assignment #4
 
-const description = "Portugal is in Europe, and its 11 milion people speak portuguese"
+let description = country + " is in " + continent + " and it's " + population + " milion people speak " + language;
 const finlandPopulation = 6000000;
 const averagePopulation = 33000000;
 let countrySplitHalf = population / 2;
@@ -35,4 +35,9 @@ countrySplitHalf++;
 console.log(countrySplitHalf)
 console.log(population > finlandPopulation);
 console.log(population < averagePopulation);
+console.log(description);
+
+// Assignment #5
+
+description = `${country} is in ${continent} and it's ${population} milion people speak ${language}`;
 console.log(description);
