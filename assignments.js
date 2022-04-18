@@ -41,3 +41,11 @@ console.log(description);
 
 description = `${country} is in ${continent} and it's ${population} milion people speak ${language}`;
 console.log(description);
+
+// Assignment #6
+
+if (population > averagePopulation){
+    console.log(`${country}'s population is ${population - averagePopulation} million above average`);
+} else {
+    console.log(`${country}'s population is ${averagePopulation - population} million below average`)
+}
