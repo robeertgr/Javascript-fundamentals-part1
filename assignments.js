@@ -10,8 +10,7 @@ console.log(population);
 
 // Assignment #2
 
-let isIsland = country;
-isIsland = true;
+let isIsland = false;
 const language = "Portuguese";
 console.log(typeof isIsland);
 console.log(typeof population);
@@ -69,4 +68,16 @@ if (numNeighbours === 1) {
     console.log('More than 1 border');
 } else {
     console.log('No borders')
+}
+
+// Assignment #9
+
+const newCountry = true;
+const hasLess50MillionPeople = true;
+const isAnIsland = true;
+
+if (newCountry && hasLess50MillionPeople && isAnIsland){
+    console.log(`You should live in ${country}`);
+} else {
+    console.log(`${country} does not meet your criteria :(`);
 }
