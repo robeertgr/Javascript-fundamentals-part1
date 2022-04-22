@@ -107,3 +107,8 @@ switch (newLanguage){
         console.log('Great language too :D');
         break;
 }
+
+// Assignment #11
+
+const ternary = population > averagePopulation ? `${country}'s population is above average` : `${country}'s population is below average`
+console.log(ternary)
