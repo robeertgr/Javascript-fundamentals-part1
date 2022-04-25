@@ -25,8 +25,8 @@ JavaScript Fundamentals - Part 1
 
 Javascript Fundamentals - Part 2
 
-- [ ] Activating Strict Mode
-- [ ] Functions
+- [x] Activating Strict Mode
+- [x] Functions
 - [ ] Function Declarations vs. Expressions
 - [ ] Arrow Functions
 - [ ] Functions Calling Other Functions
