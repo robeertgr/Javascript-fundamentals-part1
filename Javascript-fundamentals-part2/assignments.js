@@ -27,3 +27,12 @@ const population4 = percentageOfWorld2(1441);
 const population5 = percentageOfWorld2(230);
 const population6 = percentageOfWorld2(5);
 console.log(population4, population5, population6);
+
+// Assignment #3
+
+const percentageOfWorld3 = population => (population / 7900) * 100;
+
+const population7 = percentageOfWorld3(1441);
+const population8 = percentageOfWorld3(230);
+const population9 = percentageOfWorld3(5);
+console.log(population7, population8, population9);
