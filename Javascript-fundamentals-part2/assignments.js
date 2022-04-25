@@ -36,3 +36,15 @@ const population7 = percentageOfWorld3(1441);
 const population8 = percentageOfWorld3(230);
 const population9 = percentageOfWorld3(5);
 console.log(population7, population8, population9);
+
+// Assignment #4
+
+const describePopulation = function (country, population) {
+    percentageOfWorld1(population);
+    return console.log(`${country} has ${population} million people, which is about ${percentageOfWorld1(population)}% of the world.`);
+}
+
+const population10 = describePopulation('China', 1441);
+const population11 = describePopulation('Brazil', 230);
+const population12 = describePopulation('Ireland', 5);
+
