@@ -27,10 +27,10 @@ Javascript Fundamentals - Part 2
 
 - [x] Activating Strict Mode
 - [x] Functions
-- [ ] Function Declarations vs. Expressions
-- [ ] Arrow Functions
-- [ ] Functions Calling Other Functions
-- [ ] Reviweing Functions
+- [x] Function Declarations vs. Expressions
+- [x] Arrow Functions
+- [x] Functions Calling Other Functions
+- [ ] Reviewing Functions
 - [ ] Introduction to Arrays
 - [ ] Basic Array Operations (Methods)
 - [ ] Introduction to Objects
