@@ -48,3 +48,9 @@ const population10 = describePopulation('China', 1441);
 const population11 = describePopulation('Brazil', 230);
 const population12 = describePopulation('Ireland', 5);
 
+// Assignment #5
+
+const populations = [1441, 230, 5, 1];
+const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[populations.length - 1])];
+console.log(percentages);
+
