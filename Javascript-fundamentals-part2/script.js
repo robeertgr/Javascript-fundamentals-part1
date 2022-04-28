@@ -214,7 +214,7 @@ const jonas = {
     job: 'teacher',
     friends: ['Michael', 'Peter', 'Steven']
 };
-*/
+
 // Dot vs. Bracket Notation
 
 const jonas = {
@@ -246,3 +246,44 @@ console.log(jonas);
 // 'Jonas has 3 friends, and his best friend is called Michael'
 
 console.log(`${jonas.firstName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[0]}`);
+*/
+
+// Object Methods
+
+const jonas = {
+    firstName: 'Jonas',
+    lastName: 'Schmedtmann',
+    birthYear: 1991,
+    job: 'teacher',
+    friends: ['Michael', 'Peter', 'Steven'],
+    hasDriverLicense: true,
+    
+    // calcAge: function(birthYear){
+    //     return 2037 - birthYear;
+    // }
+
+    // calcAge: function(){
+    //     // console.log(this);
+    //     return 2037 - this.birthYear;
+    // }
+    
+    calcAge: function(){
+        this.age = 2037 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function() {
+        return `${this.firstName} is a ${this.calcAge()} years old ${this.job}, and he has ${this.hasDriverLicense ? 'a' : 'no'} driver's license`;
+    }
+};
+
+console.log(jonas.calcAge());
+
+console.log(jonas.age);
+console.log(jonas.age);
+console.log(jonas.age);
+
+// Challenge
+// "Jonas is a 46-year old teacher, and he has a/no driver's license"
+
+console.log(jonas.getSummary());
