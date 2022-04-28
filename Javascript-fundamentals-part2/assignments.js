@@ -90,3 +90,20 @@ myCountry.population += 2;
 console.log(myCountry.population);
 myCountry.population -= 2;
 console.log(myCountry.population);
+
+// Assignment #9
+
+const myCountry2 = {
+    country: 'Brazil',
+    capital: 'Brazilia',
+    language: 'Portuguese',
+    population: 2300,
+    neighbours: ['Argentina', 'Bolivia', 'Chile'],
+    checkIsland: true,
+
+    describe: function() {
+        return `${this.country} has ${this.population} million ${this.language}, ${!this.checkIsland ? this.neighbours.length : 'no'} neighbouring countries and a capital called ${this.capital}`;
+    }
+};
+
+console.log(myCountry2.describe());
