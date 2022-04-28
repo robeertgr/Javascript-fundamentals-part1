@@ -31,8 +31,8 @@ Javascript Fundamentals - Part 2
 - [x] Arrow Functions
 - [x] Functions Calling Other Functions
 - [x] Reviewing Functions
-- [ ] Introduction to Arrays
-- [ ] Basic Array Operations (Methods)
+- [x] Introduction to Arrays
+- [x] Basic Array Operations (Methods)
 - [ ] Introduction to Objects
 - [ ] Dot vs. Bracket Notation
 - [ ] Object Methods
