@@ -33,9 +33,9 @@ Javascript Fundamentals - Part 2
 - [x] Reviewing Functions
 - [x] Introduction to Arrays
 - [x] Basic Array Operations (Methods)
-- [ ] Introduction to Objects
-- [ ] Dot vs. Bracket Notation
-- [ ] Object Methods
+- [x] Introduction to Objects
+- [x] Dot vs. Bracket Notation
+- [x] Object Methods
 - [ ] Iteration: The for loop
 - [ ] Looping Arrays, Breaking and Continuing
 - [ ] Looping Backwards and Loops in Loops
