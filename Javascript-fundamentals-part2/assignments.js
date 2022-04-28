@@ -54,3 +54,39 @@ const populations = [1441, 230, 5, 1];
 const percentages = [percentageOfWorld1(populations[0]), percentageOfWorld1(populations[1]), percentageOfWorld1(populations[2]), percentageOfWorld1(populations[populations.length - 1])];
 console.log(percentages);
 
+// Assignment #6
+
+const neighbours = ['Argentina', 'Bolivia', 'Chile'];
+console.log(neighbours);
+neighbours.push('Venezuela');
+console.log(neighbours);
+neighbours.pop();
+console.log(neighbours);
+
+if (!neighbours.includes('Germany')) {
+    console.log('Probably not a central European country :D');
+}
+
+console.log(neighbours.indexOf('Argentina'));
+neighbours[0] = 'Brazil';
+console.log(neighbours);
+
+// Assignment #7
+
+const myCountry = {
+    country: 'Brazil',
+    capital: 'Brazilia',
+    language: 'Portuguese',
+    population: 2300,
+    neighbours: ['Argentina', 'Bolivia', 'Chile']
+};
+
+console.log(myCountry)
+
+// Assignment #8
+
+console.log(`${myCountry.country} has ${myCountry.population} million ${myCountry.language}, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`)
+myCountry.population += 2;
+console.log(myCountry.population);
+myCountry.population -= 2;
+console.log(myCountry.population);
