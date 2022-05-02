@@ -107,3 +107,39 @@ const myCountry2 = {
 };
 
 console.log(myCountry2.describe());
+
+// Assignment #10
+
+// for (let rep = 1; rep <= 50; rep++) {
+//     console.log(`Voter number ${rep} is currently voting`);
+// }
+
+// Assignment #11
+
+const percentages2 = [];
+for (let i = 0; i < populations.length; i++) {
+    percentages2.push(percentageOfWorld1(populations[i]));
+}
+
+console.log(percentages2);
+console.log(percentages2.length, populations.length);
+
+// Assignment #12
+
+const listOfNeighbours = [['Canada', 'Mexico'], ['Spain'], ['Norway', 'Sweden', 'Russia']];
+
+for (let i = 0; i < listOfNeighbours.length; i++) {
+    for (let j = 0; j < listOfNeighbours[i].length; j++){
+        console.log(`Neighbour: ${listOfNeighbours[i][j]}`);
+    }
+}
+
+// Assignment #13
+
+const percentageOfWorld4 = [];
+let i = 0;
+while (i < populations.length) {
+    percentageOfWorld4.push(percentageOfWorld1(populations[i]));
+    i++;
+}
+console.log(percentageOfWorld4);
