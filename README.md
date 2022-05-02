@@ -36,7 +36,7 @@ Javascript Fundamentals - Part 2
 - [x] Introduction to Objects
 - [x] Dot vs. Bracket Notation
 - [x] Object Methods
-- [ ] Iteration: The for loop
-- [ ] Looping Arrays, Breaking and Continuing
-- [ ] Looping Backwards and Loops in Loops
-- [ ] The while loop
+- [x] Iteration: The for loop
+- [x] Looping Arrays, Breaking and Continuing
+- [x] Looping Backwards and Loops in Loops
+- [x] The while loop
