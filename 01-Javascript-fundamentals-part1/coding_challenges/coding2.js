@@ -7,12 +7,12 @@
     John weights 85 kg and is 1.76 m tall.
 */
 
-let markWeight = 78;
-let markHeight = 169;
-let johnWeight = 92;
-let johnHeight = 195;
-let BMIMark = markWeight / markHeight ** 2;
-let BMIJohn = johnWeight / johnHeight ** 2;
+const markWeight = 78;
+const markHeight = 169;
+const johnWeight = 92;
+const johnHeight = 195;
+const BMIMark = markWeight / markHeight ** 2;
+const BMIJohn = johnWeight / johnHeight ** 2;
 
 if (BMIMark > BMIJohn) {
     console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})`);

@@ -1,13 +1,13 @@
 // Values and Variables
 
-const country = 'Brazil';
+const country = 'Ireland';
 const continent = 'South America';
-let population = '212000000';
+let population = '45000000';
 console.log(country, continent, population);
 
 // Data types
 
-let isIsland = true;
+let isIsland = false;
 const language = 'Portuguese';
 console.log(isIsland, population, country, language);
 
@@ -35,3 +35,23 @@ if (population > averagePopulation) {
 } else {
     console.log(`${country}'s population is ${averagePopulation - population} below average`);
 }
+
+// LECTURE: Type Conversion and Coercion
+
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log (5 + 6 + '4' + 9 - 4 - 2);
+
+// LECTURE: Equality Operators: == vs. ===
+
+// const numNeighbors = Number(prompt('How many neighbour countries does your country have?'));
+// if (numNeighbors === 1) console.log('Only 1 border!');
+// else if (numNeighbors > 1) console.log('More than 1 border!');
+// else (console.log('No borders'))
+
+// LECTURE: Logical Operators
+
+if (country === 'Ireland' && population < 50000000 && !isIsland) console.log(`You should live in ${country}`);
+else console.log(`${country} does not meet your criteria`);
